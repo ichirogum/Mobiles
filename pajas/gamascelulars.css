@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+}
+/* Modificar el modelo de cajas de CSS */
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+            box-sizing: inherit;
+}
+/* Resetear margenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+h2 {
+	background-color: #959189;
+}
+h3 {
+	margin: 40px;
+}
+p {
+	margin: 2px;
+}html, body {
+    height: 100%;
+}
+/* Modificar el modelo de cajas de CSS */
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+            box-sizing: inherit;
+}
+/* Resetear margenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+article {
+    background-image: url('../armamento/diplodocus.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+.container {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+header {
+    background-color: rgb(0, 194, 168);
+}
+h1 {
+    background-color: #0041a3;
+    margin: 40px;
+    font-size: 40px;
+    color: #3e0144;
+    transition: color 3.3s ease;
+}
+h3 {
+    margin: 40px;
+    font-size: 40px;
+    color: #08eb79;
+    transition: color 3.3s ease;
+}
+h2:hover, h3:hover {
+    color: #187700; /* Color al pasar el ratón por encima */
+}
+p {
+    color: #333; /* Color de texto inicial */
+    transition: color 0.3s, transform 0.3s; /* Transición suave para el cambio de color y tamaño */
+}
+
+p:hover {
+    color: #09005c; /* Color al pasar el ratón */
+    transform: scale(1.1); /* Aumentar el tamaño del texto al pasar el ratón */
+}

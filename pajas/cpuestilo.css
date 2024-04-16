@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+}
+/* Modificar el modelo de cajas de CSS */
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+*, *::before, *::after {
+            -webkit-box-sizing: inherit;
+                    box-sizing: inherit;
+}
+/* Resetear margenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+article {
+    background-image: url('../armamento/Fondo\ de\ celular\ principal.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+.container {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+header {
+    background-color: green;
+}
+h2 {
+    background-color: #959189;
+    margin: 40px;
+    font-size: 40px;
+    color: #0c1323;
+    -webkit-transition: color 3.3s ease;
+    -o-transition: color 3.3s ease;
+    transition: color 3.3s ease;
+}
+h3 {
+    margin: 40px;
+    font-size: 40px;
+    color: #00ff97;
+    -webkit-transition: color 3.3s ease;
+    -o-transition: color 3.3s ease;
+    transition: color 3.3s ease;
+}
+h2:hover, h3:hover {
+    color: #d400ff; /* Color al pasar el ratón por encima */
+}
+p {
+    color: #333; /* Color de texto inicial */
+    -webkit-transition: color 0.3s, -webkit-transform 0.3s;
+    transition: color 0.3s, -webkit-transform 0.3s;
+    -o-transition: color 0.3s, transform 0.3s;
+    transition: color 0.3s, transform 0.3s;
+    transition: color 0.3s, transform 0.3s, -webkit-transform 0.3s; /* Transición suave para el cambio de color y tamaño */
+}
+
+p:hover {
+    color: #135702; /* Color al pasar el ratón */
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); /* Aumentar el tamaño del texto al pasar el ratón */
+}
